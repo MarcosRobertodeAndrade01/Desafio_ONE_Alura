@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Desafio de Criptografia</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagens/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="secao1">
+            <div class="conteiner-texto">
+                <textarea placeholder="Digite seu texto" class="area-texto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="./Imagens/alerta.svg" alt="alerta">
+                <p>Apenas letras minúsculas e sem acentos</p>
+            </div>
+            <div class="conteiner-botoes">
+                <input type="button" class="btn-criptografar" value="Criptografar">
+                <input type="button" class="btn-descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="secao2">
+            <div class="conteiner-imagem">
+                <img src="./Imagens/figura_boneco.svg" alt="imagem do boneco com uma lupa">
+            </div>
+            <div class="conteiner-paragrafo">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="conteiner-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="conteiner-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
